@@ -1,0 +1,11 @@
+framework module BlackBox {
+  umbrella header "BlackBox.h"
+
+  export *
+  module * { export * }
+}
+
+module BlackBox.Swift {
+    header "BlackBox-Swift.h"
+    requires objc
+}
